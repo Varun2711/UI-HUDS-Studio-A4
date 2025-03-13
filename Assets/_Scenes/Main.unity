@@ -2424,6 +2424,7 @@ MonoBehaviour:
   toUpdate: {fileID: 804610420}
   coinTextContainer: {fileID: 1395104336}
   duration: 0.4
+  animationCurve: 28
 --- !u!1001 &1299876373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2911,7 +2912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  coinCounter: {fileID: 0}
+  coinCounter: {fileID: 1165002142}
 --- !u!1001 &1765487722
 PrefabInstance:
   m_ObjectHideFlags: 0
