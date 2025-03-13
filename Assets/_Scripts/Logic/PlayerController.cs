@@ -53,7 +53,6 @@ public class PlayerController : MonoBehaviour
         {
             Vector3 velocity = rb.linearVelocity;
             Vector2 horizontalVelocity = new Vector2(velocity.x, velocity.z);
-
             if (horizontalVelocity.magnitude > maxSpeed)
             {
                 horizontalVelocity = horizontalVelocity.normalized * maxSpeed;
@@ -111,5 +110,10 @@ public class PlayerController : MonoBehaviour
         isDashing = true;
         rb.linearVelocity = Vector3.zero;
         rb.AddForce(transform.forward * dashForce, ForceMode.Impulse);
+    }
+
+    public void UpdatePlayerMaxSpeed(float speed)
+    {
+        maxSpeed = speed;
     }
 }
