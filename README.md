@@ -1,8 +1,10 @@
 # Third Person Platformer
 
-A simple third person character controller in Unity
+## My video:
+https://github.com/user-attachments/assets/7c8f5a27-d918-4bef-b20d-0c7829f55f97
 
-## Demo
+A simple third person character controller in Unity
+ Demo
 
 https://github.com/user-attachments/assets/91485280-b86b-4c82-ac11-2a5107730e94
 
